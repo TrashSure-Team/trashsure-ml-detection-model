@@ -1,0 +1,1 @@
+# trashsure-ml-detection-model
