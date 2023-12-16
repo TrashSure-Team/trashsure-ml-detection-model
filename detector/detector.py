@@ -1,15 +1,4 @@
 """
-
-Author: Pedro F. Proenza
-
-This source modifies and extends the work done by:
-
-Copyright (c) 2017 Matterport, Inc.
-Licensed under the MIT License
-Written by Waleed Abdulla
-
-------------------------------------------------------------
-
 Usage:
 
     # First make sure you have split the dataset into train/val/test set. e.g. You should have annotations_0_train.json

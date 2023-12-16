@@ -1,18 +1,3 @@
-"""
-Mask R-CNN
-The main Mask R-CNN model implementation
-
-Copyright (c) 2017 Matterport, Inc.
-Licensed under the MIT License
-Written by Waleed Abdulla
-
-
-CHANGES:
-- Object ZOOM_IN Aufgmentation
-- Mask Share
-- Return RPN score
-"""
-
 import os
 import random
 import datetime
