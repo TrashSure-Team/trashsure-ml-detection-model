@@ -1,7 +1,9 @@
 # TrashSure ML Detection Model
 
-Download the .h5 model or tflite from:
-https://drive.google.com/drive/u/0/folders/1_Qf_deQcGObEAP5R18PNvTeBwpn45MfO
+## Description
+Welcome to the TrashSure ML Detection Model repository! This repository contains a deep learning model that has been trained to perform the task of detecting various waste types.
+
+The main goal of this project is to assist in the automated detection of waste items into specific categories. By leveraging advanced machine learning techniques, we aim to contribute to environmental sustainability and waste management efforts.
 
 ## Pre-Requisites
 
@@ -12,7 +14,7 @@ Before using this classification model, please ensure that you have the followin
 2. **Python Packages**: The necessary Python packages for running the model are listed in the `requirements.txt` file. You can install these packages using `pip` as shown below.
 
 
-## Test detection model
+## Installation
 
 To get started with the TrashSure ML Detection Model, follow these steps:
 
@@ -37,7 +39,7 @@ To get started with the TrashSure ML Detection Model, follow these steps:
    ```
    pip install -r requirements.txt
 
-## Test
+## Testing
 
 If you want to see our model in action with pre-annotated Trash images, follow these steps:
 
@@ -60,5 +62,6 @@ If you want to see our model in action with pre-annotated Trash images, follow t
     python test.py test --dataset=../data --model=models --round 0 --class_map=./dataset_configurations/map.csv
     ```
 
-# Convert Mask R-CNN architecture h5 to tflite
-See `tflite.ipynb`.
+## Model
+Download the .h5 model or .tflite from:
+https://drive.google.com/drive/u/0/folders/1_Qf_deQcGObEAP5R18PNvTeBwpn45MfO
