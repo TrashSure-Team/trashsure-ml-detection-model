@@ -210,7 +210,7 @@ if __name__ == '__main__':
         # Start from ImageNet trained weights
         model_path = model.get_imagenet_weights()
     else:
-        model_path = r"./model.h5"
+        model_path = r".\models\logs\mask_rcnn_taco_0100.h5"
 
     # Load weights
     if args.model.lower() == "coco":

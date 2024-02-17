@@ -26,7 +26,7 @@ To get started with the TrashSure ML Detection Model, follow these steps:
 2. Change your current directory to the repository:
 
    ```
-   cd trashsure-ml-classification-model
+   cd trashsure-ml-detection-model
    ```
 
 3. Create and activate a virtual environment:

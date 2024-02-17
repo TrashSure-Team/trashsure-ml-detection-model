@@ -2027,7 +2027,7 @@ class MaskRCNN():
         # All images in a batch MUST be of the same size
         image_shape = molded_images[0].shape
         for g in molded_images[1:]:
-            assert g.shape == image_shape,\
+            assert g.shape == image_shape, "Images must have the same size"
         # Anchors
         anchors = self.get_anchors(image_shape)
         # Duplicate across the batch dimension because Keras requires it
@@ -2061,7 +2061,7 @@ class MaskRCNN():
 
     def detect_molded(self, molded_images, image_metas, verbose=0):
         assert self.mode == "inference", "Create model in inference mode."
-        assert len(molded_images) == self.config.BATCH_SIZE,\
+        assert len(molded_images) == self.config.BATCH_SIZE, "Number of images must be equal to BATCH_SIZE"
         if verbose:
             log("Processing {} images".format(len(molded_images)))
             for image in molded_images:
