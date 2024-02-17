@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 import copy
-import utils
+from . import utils
 from PIL import Image, ExifTags
 from pycocotools.coco import COCO
 

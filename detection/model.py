@@ -13,7 +13,7 @@ import keras
 import keras.backend as K
 import keras.layers as KL
 import keras.models as KM
-import utils
+from . import utils
 import h5py
 from tensorflow.python.keras.saving import hdf5_format
 from distutils.version import LooseVersion
